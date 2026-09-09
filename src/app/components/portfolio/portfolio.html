@@ -1,1 +1,25 @@
-<p>portfolio works!</p>
+<section class="portfolio-section py-5 text-white text-center">
+  <div class="container pt-5">
+    <h2 class="text-uppercase fw-bold fs-1 mb-3">PORTFOLIO COMPONENT</h2>
+
+    <div class="star-divider d-flex align-items-center justify-content-center gap-3 my-3">
+      <div class="line"></div>
+      <i class="fa-solid fa-star fs-5"></i>
+      <div class="line"></div>
+    </div>
+
+    <div class="row g-4 mt-3">
+      @for (imgSrc of projects; track $index) {
+        <div class="col-md-4">
+          <div class="project-card position-relative overflow-hidden rounded-3">
+            <img [src]="imgSrc" alt="Project Image" class="w-100 rounded-3">
+            
+            <div class="layer position-absolute start-0 top-0 w-100 h-100 d-flex justify-content-center align-items-center">
+              <i class="fa-solid fa-plus fa-3x text-white"></i>
+            </div>
+          </div>
+        </div>
+      }
+    </div>
+  </div>
+</section>

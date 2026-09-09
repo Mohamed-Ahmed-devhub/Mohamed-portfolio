@@ -1,1 +1,60 @@
-<p>contact works!</p>
+<section class="contact-section py-5 text-white">
+  <div class="container pt-5">
+    <!-- العنوان -->
+    <div class="text-center">
+      <h2 class="text-uppercase fw-bold fs-1 mb-3">CONTACT ME</h2>
+      
+      <!-- النجمة والخطين -->
+      <div class="star-divider d-flex align-items-center justify-content-center gap-3 my-3">
+        <div class="line"></div>
+        <i class="fa-solid fa-star fs-5"></i>
+        <div class="line"></div>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+      <!-- نموذج البيانات -->
+      <div class="col-lg-8">
+        <form>
+          <div class="form-floating mb-3">
+            <input type="text" class="form-control custom-input" id="userName" placeholder="Name">
+            <label for="userName">Full Name</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="email" class="form-control custom-input" id="userEmail" placeholder="Email">
+            <label for="userEmail">Email Address</label>
+          </div>
+
+          <div class="form-floating mb-3">
+            <input type="tel" class="form-control custom-input" id="userPhone" placeholder="Phone">
+            <label for="userPhone">Phone Number</label>
+          </div>
+
+          <div class="form-floating mb-4">
+            <textarea class="form-control custom-input" placeholder="Message" id="userMessage" style="height: 150px"></textarea>
+            <label for="userMessage">Message</label>
+          </div>
+
+          <button type="submit" class="btn btn-accent px-4 py-2 text-white fw-bold">Send Message</button>
+        </form>
+
+        <!-- روابط التواصل المباشرة -->
+        <div class="direct-contact mt-5 pt-4 border-top border-secondary text-center">
+          <p class="fs-5 mb-3 text-slate">أو تواصل معي مباشرة عبر:</p>
+          <div class="d-flex justify-content-center gap-3 flex-wrap">
+            <a href="https://wa.me/201005121073" target="_blank" class="btn btn-outline-info">
+              <i class="fa-brands fa-whatsapp me-2"></i> WhatsApp
+            </a>
+            <a href="https://www.linkedin.com/in/mohamed-ahmed73" target="_blank" class="btn btn-outline-info">
+              <i class="fa-brands fa-linkedin-in me-2"></i> LinkedIn
+            </a>
+            <a href="https://github.com/Mohamed-Ahmed-devhub" target="_blank" class="btn btn-outline-info">
+              <i class="fa-brands fa-github me-2"></i> GitHub
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>

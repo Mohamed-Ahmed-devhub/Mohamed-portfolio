@@ -1,0 +1,53 @@
+.contact-section {
+  min-height: 100vh;
+  background-color: #0f172a;
+}
+
+/* خط النجمة */
+.star-divider .line {
+  width: 80px;
+  height: 4px;
+  background-color: #38bdf8;
+  border-radius: 2px;
+}
+
+.star-divider i {
+  color: #38bdf8;
+}
+
+/* تنسيق حقول المدخلات */
+.custom-input {
+  background-color: transparent !important;
+  border: none !important;
+  border-bottom: 2px solid #334155 !important;
+  border-radius: 0 !important;
+  color: #fff !important;
+  box-shadow: none !important;
+}
+
+.custom-input:focus {
+  border-bottom-color: #38bdf8 !important;
+}
+
+.form-floating label {
+  color: #94a3b8;
+}
+
+.custom-input:focus ~ label {
+  color: #38bdf8 !important;
+}
+
+/* الأزرار */
+.btn-accent {
+  background-color: #38bdf8;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-accent:hover {
+  background-color: #0284c7;
+}
+
+.text-slate {
+  color: #94a3b8;
+}

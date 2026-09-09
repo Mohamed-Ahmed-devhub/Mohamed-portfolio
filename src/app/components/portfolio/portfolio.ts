@@ -6,4 +6,13 @@ import { Component } from '@angular/core';
   styleUrl: './portfolio.css',
   templateUrl: './portfolio.html',
 })
-export class Portfolio {}
+export class Portfolio {
+  projects: string[] = [
+    'images/poert1.png',
+    'images/port2.png',
+    'images/port3.png',
+    'images/poert1.png',
+    'images/port2.png',
+    'images/port3.png'
+  ]
+}
