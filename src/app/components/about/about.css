@@ -1,0 +1,23 @@
+.about-section {
+  min-height: 100vh;
+  background-color: #1e293b; /* أغمق درجة بسيطة من الـ Home للتمييز */
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+/* تنسيق خط النجمة */
+.star-divider .line {
+  width: 80px;
+  height: 4px;
+  background-color: #38bdf8;
+  border-radius: 2px;
+}
+
+.star-divider i {
+  color: #38bdf8;
+}
+
+.lead p {
+  line-height: 1.8;
+  color: #e2e8f0;
+}
