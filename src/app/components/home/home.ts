@@ -8,4 +8,5 @@ import { Component } from '@angular/core';
 })
 export class Home {
   experienceYears :number = 2;
+  skills: string[] = ['Angular 19', 'TypeScript', 'Bootstrap 5', 'HTML5/CSS3', 'Git & GitHub'];
 }
